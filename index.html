@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini 3D Game — Collect the Cubes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div id="score">Score: 0</div>
+    <div id="message">Use WASD or arrows to move. Collect cubes!</div>
+    <button id="startBtn">Start Game</button>
+  </div>
+
+  <div id="gameContainer"></div>
+
+  <!-- Mobile controls -->
+  <div id="touch-controls" aria-hidden="true">
+    <button class="tc-btn" id="btn-up">▲</button>
+    <button class="tc-btn" id="btn-left">◀</button>
+    <button class="tc-btn" id="btn-right">▶</button>
+    <button class="tc-btn" id="btn-down">▼</button>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
